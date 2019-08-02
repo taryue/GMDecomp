@@ -119,10 +119,11 @@ biplot.gmd.body = function(fit, index, names, sample.col, sample.pch, arrow.col,
   #arrow.x = diag(rep(1, dim(V)[1]))%*%Q%*%V[,1]
   #arrow.y = diag(rep(1, dim(V)[1]))%*%Q%*%V[,2]
 
+  if(missing(index)){index = gmd.order[1:3]}
   if(missing(names)){names = paste0("V", index)}
   gmd.order = order(rowSums(V^2), decreasing = T)
 
-  if(missing(index)){index = gmd.order[1:3]}
+
 
   max.xarrow = max(abs(arrow.x))
   max.yarrow = max(abs(arrow.y))
