@@ -1,12 +1,14 @@
 Package: GMDecomp
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Visualization tools for the Generalized Matrix Decomposition (GMD).
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Parker Knight and Yue Wang
+Maintainer: Yue Wang <ywang2310@fredhutch.org>
+Description: Implements GMD and visualizes the GMD output.
+License: GPL-2
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
+Suggests:
+    knitr,
+    rmarkdown
