@@ -1,6 +1,5 @@
 ## ---- eval = TRUE--------------------------------------------------------
 library(GMDecomp)
-load("tobacco_clr.Rdata")
 
 ## ---- eval = TRUE--------------------------------------------------------
 tobacco.gmd <- GMD(X = tobacco_clr$data, H = tobacco_clr$H, Q = diag(1, dim(tobacco_clr$data)[2]), K = 10)

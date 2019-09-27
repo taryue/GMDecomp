@@ -20,12 +20,11 @@ a 271 × 1 vector of taxon counts. To make the measurements comparable, we consi
 
 ## Step 1: Loading the tobacco data set
 
-We first load our R package **GMDecomp** and the data set **tobacco_clr**. 
+We first load our R package **GMDecomp**. 
 ```{r , eval = TRUE}
 library(GMDecomp)
-load("tobacco_clr.Rdata")
 ```
-The variables in the data object include
+The data object **tobacco_clr** in the package include
 
   - data: the CLR transformed out table, with rows for samples and columns for OTU.
   - $H$: the similarity kernel derived from the squared weighted UniFrac distance.

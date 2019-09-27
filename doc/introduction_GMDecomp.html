@@ -100,10 +100,9 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </div>
 <div id="step-1-loading-the-tobacco-data-set" class="section level2">
 <h2>Step 1: Loading the tobacco data set</h2>
-<p>We first load our R package <strong>GMDecomp</strong> and the data set <strong>tobacco_clr</strong>.</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(GMDecomp)
-<span class="kw">load</span>(<span class="st">&quot;tobacco_clr.Rdata&quot;</span>)</code></pre></div>
-<p>The variables in the data object include</p>
+<p>We first load our R package <strong>GMDecomp</strong>.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(GMDecomp)</code></pre></div>
+<p>The data object <strong>tobacco_clr</strong> in the package include</p>
 <ul>
 <li>data: the CLR transformed out table, with rows for samples and columns for OTU.</li>
 <li><span class="math inline">\(H\)</span>: the similarity kernel derived from the squared weighted UniFrac distance.</li>
