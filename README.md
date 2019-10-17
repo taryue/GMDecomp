@@ -6,4 +6,4 @@ To install the package, please use
 devtools::install_github("taryue/GMDecomp").
 
 # Usage
-See the [vignette]("https://taryue.github.io/GMDecomp/") for a thorough example. 
+See the [vignette](doc/) for a thorough example. 
